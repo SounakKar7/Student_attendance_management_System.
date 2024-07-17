@@ -1,0 +1,154 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+}
+
+.form-group {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-group label,
+.form-group select,
+.form-group input[type="text"] {
+    font-size: 1.5em;
+}
+
+.form-group input[type="text"] {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.form-group .search-button {
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.table {
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid white; /* Add border to each cell */
+    padding: 10px;
+}
+
+.table th {
+    background-color: green;
+    font-weight: normal;
+    color: black;
+    font-size: 1.5em;
+    border-bottom: 2px solid white; /* Add bottom border to header cells */
+}
+
+.table td {
+    font-weight: bold;
+    font-size: 1.2em;
+    border-right: 1px solid white; /* Add right border to data cells */
+    border-left: 1px solid white; /* Add left border to data cells */
+}
+
+.table tr:nth-child(odd) {
+    background-color: #333333; /* Alternate row color */
+}
+
+.table tr:nth-child(even) {
+    background-color: #444444; /* Alternate row color */
+}
+
+.search-bar {
+    width: 300px;
+}
+
+.back-home-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+    float: calc(center);
+}
+
+.student-info-box {
+    background-color: orange;
+    color: black;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.search-bar-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-color-orange {
+    color: orange;
+}
+
+h4.text-color-orange {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.table thead th {
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+}

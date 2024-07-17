@@ -1,0 +1,80 @@
+/* styles.css */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+h2 {
+    color: orange;
+}
+
+.form-group input[type="date"] {
+    background-color: green;
+    color: white;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+}
+
+.table {
+    background-color: black;
+    color: white;
+}
+
+.table th, .table td {
+    border: 2px solid green;
+}
+
+.table th {
+    background-color: green;
+}
+
+.table td {
+    background-color: black;
+}
+
+.btn-primary {
+    background-color: orange; /* Calendar button color */
+    border-color: orange;
+}
+
+.btn-secondary,
+.btn-danger {
+    background-color: red; /* Back button and View Attendance button color */
+    border-color: red;
+}
+
+.btn-success {
+    background-color: green; /* Take Attendance button color */
+    border-color: green;
+}
+
+.btn-warning {
+    background-color: orange; /* View Attendance button color */
+    border-color: orange;
+}
+
+/* Larger and styled checkbox */
+.form-control select {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: white;
+    border: 2px solid orange;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-control select:checked {
+    background-color: orange;
+    color: black;
+}
